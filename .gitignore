@@ -127,3 +127,26 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+### VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+**/.vscode
+
+# JetBrains
+.idea/
+
+# Data & Models
+*.h5
+*.tar
+*.tar.gz
+
+# Lightning-Hydra-Template
+configs/local/default.yaml
+/data/
+/logs/
+.env

@@ -1,0 +1,6 @@
+_target_: src.data.wificsi_datamodule.WiFiCSIDataModule
+data_dir: ${paths.data_dir}
+batch_size: 16
+train_val_test_split: [0.85, 0.10, 0.05]
+num_workers: 0
+pin_memory: False
